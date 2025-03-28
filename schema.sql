@@ -1,10 +1,3 @@
-/*
-* BookMedik PRO Database
-* @author Evilnapsis
-*/
-drop database bookmedikpro;
-create database bookmedikpro;
-use bookmedikpro; 
 
 create table user (
 	id int not null auto_increment primary key,
