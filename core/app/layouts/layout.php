@@ -175,7 +175,7 @@ $(document).ready(function(){
         <div class="pull-right hidden-xs">
           <b>Version</b> v5.1
         </div>
-        <strong>Copyright &copy; 2020 <a href="http://evilnapsis.com/company/" target="_blank">Evilnapsis</a></strong>
+        <strong>Copyright &copy; 2025 <a href="https://www.sivecsol.com" target="_blank">Sivecsol</a></strong>
       </footer>
       <?php else:?>
         <?php if(isset($_GET["view"]) && $_GET["view"]=="pacientlogin"):?>
