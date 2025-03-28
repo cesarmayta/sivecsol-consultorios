@@ -25,7 +25,7 @@ $pdf->SetFont('Arial','B',8);    //Letra Arial, negrita (Bold), tam. 20
 $pdf->setY(2);
 $pdf->setX(10);
 $pdf->SetFont('Arial','B',20);    //Letra Arial, negrita (Bold), tam. 20
-$pdf->Cell(5,20,strtoupper("BOOKMEDIK PRO"));
+$pdf->Cell(5,20,strtoupper("SIVECMED PRO"));
 $pdf->SetFont('Arial','B',14);    //Letra Arial, negrita (Bold), tam. 20
 $pdf->setY(2);
 $pdf->setX(10);

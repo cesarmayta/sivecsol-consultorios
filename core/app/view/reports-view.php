@@ -175,7 +175,7 @@ if($_GET["status_id"]!=""||$_GET["pacient_id"]!="" ||$_GET["medic_id"]!="" ||$_G
         function thePDF() {
 var doc = new jsPDF('l', 'pt');
         doc.setFontSize(26);
-        doc.text("BOOKMEDIK PRO", 40, 65);
+        doc.text("SIVECMED PRO", 40, 65);
         doc.setFontSize(18);
         doc.text("REPORTE", 40, 80);
         doc.setFontSize(12);
@@ -224,7 +224,7 @@ doc.autoTable(columns, rows, {
     }
 });
 doc.setFontSize(12);
-doc.text("Generado por el Sistema BookMedik Pro v3.8", 40, doc.autoTableEndPosY()+25);
+doc.text("Generado por el Sistema SIVECMED Pro v3.8", 40, doc.autoTableEndPosY()+25);
 
 doc.save('reports-<?php echo date("d-m-Y h:i:s",time()); ?>.pdf');
 }

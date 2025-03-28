@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>BookMedik Pro | Panel de Administracion</title>
+    <title>SivecMed Pro | Panel de Administracion</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.4 -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -53,7 +53,7 @@ $(document).ready(function(){
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>B</b>P</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>BOOKMEDIK</b>PRO</span>
+          <span class="logo-lg"><b>SivecMed</b>PRO</span>
         </a>
 
         <!-- Header Navbar -->
@@ -182,7 +182,7 @@ $(document).ready(function(){
 <div class="login-box">
       <div class="login-logo">
         <h4>ACCESO AL PACIENTE</h4>
-        <a href="./?view=pacientlogin"><b>BOOKMEDIK</b>PRO</a>
+        <a href="./?view=pacientlogin"><b>SivecMed</b>PRO</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <form action="./?action=processloginpacient" method="post">
@@ -208,7 +208,7 @@ $(document).ready(function(){
 <div class="login-box">
       <div class="login-logo">
         <h4>REGISTRO DE PACIENTES</h4>
-        <a href="./?view=pacientlogin"><b>BOOKMEDIK</b>PRO</a>
+        <a href="./?view=pacientlogin"><b>SivecMed</b>PRO</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <form action="./?action=processregisterpacient" method="post">
@@ -254,7 +254,7 @@ $(document).ready(function(){
 <div class="login-box">
       <div class="login-logo">
         <h4>ACCESO AL MEDICO</h4>
-        <a href="./?view=pacientlogin"><b>BOOKMEDIK</b>PRO</a>
+        <a href="./?view=pacientlogin"><b>SivecMed</b>PRO</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <form action="./?action=processloginmedic" method="post">
@@ -279,7 +279,7 @@ $(document).ready(function(){
         <?php else:?>
 <div class="login-box">
       <div class="login-logo">
-        <a href="./"><b>BOOKMEDIK</b>PRO</a>
+        <a href="./"><b>SivecMed</b>PRO</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <form action="./?action=processlogin" method="post">

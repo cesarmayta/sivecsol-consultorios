@@ -128,7 +128,7 @@ create table reservation(
 	foreign key (medic_id) references medic(id)
 );
 
-/* for bookmedik v3 */
+/* for SivecMed v3 */
 
 create table treatment (
 	id int not null auto_increment primary key,

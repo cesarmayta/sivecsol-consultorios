@@ -26,10 +26,10 @@ $objPHPExcel = new Spreadsheet();
 $products = $_SESSION["report_data"];
 
 // Set document properties
-$objPHPExcel->getProperties()->setCreator("BookMedik Pro v5.1")
-							 ->setLastModifiedBy("BookMedik Pro v5.1")
-							 ->setTitle("Products - BookMedik Pro v5.1")
-							 ->setSubject("BookMedik Pro Citas Report")
+$objPHPExcel->getProperties()->setCreator("SivecMed Pro v5.1")
+							 ->setLastModifiedBy("SivecMed Pro v5.1")
+							 ->setTitle("Products - SivecMed Pro v5.1")
+							 ->setSubject("SivecMed Pro Citas Report")
 							 ->setDescription("")
 							 ->setKeywords("")
 							 ->setCategory("");
@@ -38,7 +38,7 @@ $objPHPExcel->getProperties()->setCreator("BookMedik Pro v5.1")
 // Add some data
 $sheet = $objPHPExcel->setActiveSheetIndex(0);
 
-$sheet->setCellValue('A1', 'Reporte de Citas - BookMedik Pro')
+$sheet->setCellValue('A1', 'Reporte de Citas - SivecMed Pro')
 ->setCellValue('A4', 'Id')
 ->setCellValue('B4', 'Asunto')
 ->setCellValue('C4', 'Paciente')

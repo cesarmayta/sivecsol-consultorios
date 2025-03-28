@@ -66,7 +66,7 @@ $word->addTableStyle('table1', $styleTable);
 $section1->addText("");
 $section1->addText("");
 $section1->addText("");
-$section1->addText("Generado por BookMedik v5.1");
+$section1->addText("Generado por SivecMed v5.1");
 $filename = "reservation-".time().".docx";
 #$word->setReadDataOnly(true);
 $word->save($filename,"Word2007");
